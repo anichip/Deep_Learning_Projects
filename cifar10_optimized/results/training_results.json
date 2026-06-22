@@ -1,0 +1,23 @@
+{
+  "model": "ResNet18",
+  "dataset": "CIFAR-10",
+  "num_classes": 10,
+  "best_val_loss_s1": 0.5691,
+  "stage": "layer2_layer1_unfrozen",
+  "best_val_loss_s2": 0.2122,
+  "test_loss": 0.2332,
+  "test_accuracy": 93.29,
+  "best_val_loss_s3": 0.06348979093704206,
+  "test_loss_s3": 0.17348856730505632,
+  "test_accuracy_s3": 0.95,
+  "onnx_export": "results/cifar_classifier.onnx",
+  "onnx_input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "onnx_fp32_size_mb": 42.65,
+  "onnx_int8_size_mb": 10.71,
+  "onnx_size_reduction": 3.98
+}

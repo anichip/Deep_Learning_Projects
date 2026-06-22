@@ -2,4 +2,9 @@
 /data_food101/
 /data_mnist/
 *.onnx
-/__pycache__/
+**/__pycache__/
+cifar10_optimized/data_cifar10/
+/.DS_Store/
+*.pyc
+*.pyo
+**/.DS_Store/
